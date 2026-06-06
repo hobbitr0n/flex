@@ -6,9 +6,9 @@ body {
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-* {
+/* * {
     outline: 1px solid red;
-}
+} */
 
 .logo-text {
     font-size: 24px;
@@ -20,6 +20,12 @@ body {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 a {
@@ -90,4 +96,41 @@ button {
     border-radius: 8px;
     padding: 6px;
     font-weight: bold;
+}
+
+.c-2 {
+    flex: 0 0 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.info-blocks {
+    flex: 3;
+    display: flex;
+    gap: 40px;
+}
+
+.c-2 img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
+.info-blocks div {
+    flex: 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+    text-align: center;
 }
