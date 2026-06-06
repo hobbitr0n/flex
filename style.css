@@ -6,10 +6,6 @@ body {
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-* {
-    outline: 1px solid red;
-}
-
 .logo-text {
     font-size: 24px;
     color: #F9FAF8;
@@ -38,6 +34,11 @@ body {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+}
+
+.action-text {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 a {
@@ -108,6 +109,7 @@ button {
     border-radius: 8px;
     padding: 6px;
     font-weight: bold;
+    border: none;
 }
 
 .c-2 {
@@ -149,16 +151,59 @@ button {
 
 .c-3 {
     background-color: #E5E7EB;
-    flex: 0 0 400px;
+    flex: 0 0 260px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .c-3 .quote {
-    flex: 0 0 400px;
+    flex: 0 0 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 40px 100px;
+}
+
+.c-4 {
+    flex: 0 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-4 .action-box {
+    width: 1000px;
+    height: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.action-box .action-left {
+    flex: 0 1 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.action-box .action-right button {
+    border: 3px solid #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    flex: 0 0 48px;
+}
+
+.footer p {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    font-size: 10px;
+    align-items: center;
 }
