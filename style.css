@@ -6,9 +6,9 @@ body {
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-/* * {
+* {
     outline: 1px solid red;
-} */
+}
 
 .logo-text {
     font-size: 24px;
@@ -26,6 +26,18 @@ body {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300px;
+    color: #1F2937;
+}
+
+.quote-source {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
 
 a {
@@ -133,4 +145,20 @@ button {
     align-items: center;
     padding: 12px;
     text-align: center;
+}
+
+.c-3 {
+    background-color: #E5E7EB;
+    flex: 0 0 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.c-3 .quote {
+    flex: 0 0 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 100px;
 }
